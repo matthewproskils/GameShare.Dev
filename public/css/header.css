@@ -1,0 +1,48 @@
+:root{
+  --white-bg: #f2f8ff;
+  --font-color: #262b2b;
+  --light-blue: #d9e7ff;
+  --light-blue2: #f7faff;
+  --blue: #8ab5ff;
+}
+
+#NavigationHeader{
+  width: 100%;
+  height: 10vh;
+  background-color: var(--light-blue2);
+  border-bottom: 2px solid var(--blue);
+}
+
+#NavigationHeader > #NavInner > .link{
+  border-bottom: 2px solid var(--blue);
+  margin-top: 2vh;
+  padding: 2vh;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-color: var(--light-blue);
+  height: 3vh;
+  line-height: 4.5vh;
+}
+
+#NavigationHeader > #NavInner > div.left{
+  float: left;
+}
+
+#NavigationHeader > #NavInner > div.right{
+  float: right;
+}
+
+#NavigationHeader > #NavInner > .link > a{
+  text-decoration: none;
+  color: var(--font-color);
+}
+
+#NavigationHeader > #NavInner > .logo > a > img{
+  height: 7.5vh;
+  padding: 2vh;
+  transition: transform .2s;
+}
+
+#NavigationHeader > #NavInner > .logo > a > img:hover{
+  transform: scale(1.1)
+}

@@ -1,0 +1,11 @@
+@import "./header.css";
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+*{
+  font-family: 'Spartan', sans-serif;;
+}
+
+html, body{
+  margin: 0px;
+  padding: 0px;
+}
